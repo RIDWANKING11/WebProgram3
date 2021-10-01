@@ -5,10 +5,14 @@ body {
 	font-size: 15px;
 }
 
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
 #wrapper {
 	background: #fff;
-	width: 1100px;
-	margin: 20px;
+	margin-top: 20px;
 }
 
 #wrapper header {
@@ -58,4 +62,5 @@ footer a {
 
 section {
 	padding: 20px;
+	background-color: white;
 }
