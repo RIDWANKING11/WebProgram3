@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Prog II | Merancang Template Sederhana dengan codeignater </title>
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/stylebuku.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()">
 </head>
 
 <body>
