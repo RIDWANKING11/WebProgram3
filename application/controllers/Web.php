@@ -13,15 +13,15 @@ class web extends CI_Controller
     public function index()
     {
         $data['judul'] = "halaman depan";
-        $this->load->view('v-header', $data);
-        $this->load->view('v-index', $data);
-        $this->load->view('v-footer', $data);
+        $this->load->view('template/header', $data);
+        $this->load->view('index', $data);
+        $this->load->view('template/footer', $data);
     }
     public function about()
     {
         $data['judul'] = "halaman about";
-        $this->load->view('v-header', $data);
-        $this->load->view('v-index', $data);
-        $this->load->view('v-footer', $data);
+        $this->load->view('template/header', $data);
+        $this->load->view('index', $data);
+        $this->load->view('template/footer', $data);
     }
 }
