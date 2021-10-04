@@ -1,20 +1,3 @@
-    <div class="container">
-        <div id="wrapper">
-            <header>
-                <hgroup>
-                    <h1>RentalBuku.net</h1>
-                    <h3>Membuat Template Sederhana dengan CodeIgniter</h3>
-                </hgroup>
-                <nav>
-                    <ul>
-                        <li><a href="<?php echo base_url() . 'index.php/web' ?>">Home</a></li>
-                        <li><a href="<?php echo base_url() . 'index.php/web/about' ?>">About</a></li>
-                    </ul>
-                </nav>
-                <div class="clear"></div>
-            </header>
-        </div>
-
         <section>
             <h1>Halaman Depan</h1>
             <p align='justify'>Pada pengertian codeigniter diatas tadi di jelaskan bahwa codeigniter menggunakan metode MVC, Apa itu MVC? Kita juga harus mengetahui apa itu MVC sebelum masuk dan lebih jauh dalam belajar codeigniter</p>
