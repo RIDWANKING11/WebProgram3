@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') or exit('no direct script acces allowed');
+defined('BASEPATH') or exit('no direct script access allowed');
 
 class web extends CI_Controller
 {
