@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<div class="container">
+    <div class="container">
         <div id="wrapper">
             <header>
                 <hgroup>
@@ -19,8 +19,8 @@
                 </hgroup>
                 <nav>
                     <ul>
-                        <li><a href="<?= base_url('index.php/web') ?>">Home</a></li>
-                        <li><a href="<?= base_url('index.php/web/about') ?>">About</a></li>
+                        <li><a href="<?= base_url('/web') ?>">Home</a></li>
+                        <li><a href="<?= base_url('/web/about') ?>">About</a></li>
                     </ul>
                 </nav>
                 <div class="clear"></div>
